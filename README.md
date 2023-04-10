@@ -4,7 +4,7 @@ Food trucks of San Francisco Restful API
 
 ## Tech
 - java 17
-- Spring boot 2.7.8
+- Spring boot 3.0.5
 - maven 3
 - spring webflux
 - cvs parser

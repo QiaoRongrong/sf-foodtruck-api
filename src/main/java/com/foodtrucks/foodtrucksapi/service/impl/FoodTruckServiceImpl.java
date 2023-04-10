@@ -54,12 +54,6 @@ public class FoodTruckServiceImpl implements FoodTruckService {
         );
     }
 
-    @Override
-    public Flux<FoodTruck> getFoodTruck(String address) {
-        Iterable<FoodTruck> foodTrucks = foodTruckRepository.findAll();
-
-        return Flux.fromIterable(foodTrucks);
-    }
 
     /*@PostConstruct
     public void loadDataToDb() {
