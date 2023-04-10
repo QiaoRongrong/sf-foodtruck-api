@@ -3,14 +3,14 @@ Food trucks of San Francisco Restful API
 - Supply a powerful endpoint for client to search the all food trucks in San Francisco.
 
 ## Tech
-java 17
-Spring boot 2.7.8
-maven 36
-spring webflux
-cvs parser
-mysql 8
+- java 17
+- Spring boot 2.7.8
+- maven 3
+- spring webflux
+- cvs parser
+- mysql 8
 
-## how to get started
+## how to run
 On linux
 1. Prepare database on MySQL server. Create db and table by sql script. file: schema.sql and data.sql on ./src/main/resources
 2. Config application-{your profile}.yaml for your DB of Env. MySQL IP:port and username, password.
